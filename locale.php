@@ -27,13 +27,13 @@
 
             "separator_button" => "FOR MANY MORE LISTINGS INQUIRE WITH US TODAY",
 
-            "offer1" => "<i>$2,100,000</i>Yalikavak, Bodrum<br/>4 Bed / 5 Bath<br/>320 m²",
-            "offer2" => "<i>$950,000</i>Gumusluk, Bodrum<br/>4 Bed / 5 Bath<br/>250 m²",
-            "offer3" => "<i>$1,200,000</i>Yalikavak, Bodrum<br/>4 Bed / 4 Bath<br/>230 m²",
+            "offer1" => "Gumusluk, Bodrum<br/>4 Bed / 5 Bath<br/>250 m²",
+            "offer2" => "Yalikavak, Bodrum<br/>4 Bed / 5 Bath<br/>320 m²",
+            "offer3" => "Yalikavak, Bodrum<br/>4 Bed / 4 Bath<br/>230 m²",
 
-            "offer4" => "<i>$350,000</i>Gümüşlük, Bodrum<br/>2 Bed / 2 Bath<br/>125 m²",
-            "offer5" => "<i>$1,200,000</i>Yalikavak, Bodrum<br/>4 Bed / 4 Bath<br/>230 m²",
-            "offer6" => "<i>\$POA</i>Yalikavak, Bodrum<br/>6 Bed / 6 Bath<br/>550 m² (on 5,000 m²)",
+            "offer4" => "Gümüşlük, Bodrum<br/>2 Bed / 2 Bath<br/>125 m²",
+            "offer5" => "Yalikavak, Bodrum<br/>4 Bed / 4 Bath<br/>230 m²",
+            "offer6" => "Gümüşlük, Bodrum<br/>6 Bed / 6 Bath<br/>550 m²",
 
             "offer1_txt" => "The ‘U’ House in<br/>Gumusluk Village",
             "offer2_txt" => "Jaw-Dropping Views from<br/>Breathtaking Villa",
