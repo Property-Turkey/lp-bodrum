@@ -16,7 +16,7 @@
             "info" => "Info",
             "reviews" => "Reviews",
             "news" => "News",
-            "site_phone" => "+90 212 215 00 22",
+            "site_phone" => "+90 212 215 0022",
             "emerging_global_realestate_goms" => "DISCOVER YOUR DREAM <br/>HOME IN BODRUM",
             "stay_ahead_the_curve" => "1,000+ Sun-Soaked Villas & Apartments",
             "scheduale_free_consultation" => "Schedule free consultation",
@@ -101,7 +101,7 @@
 
             "inquire_header" => "Learn more about this property, Plus many more.",
             "read_more_header" => "Stay current on all things Turkish real estate",
-            "contact_header" => "Curious about Turkish readl estate? You're in the right place.",
+            "contact_header" => "Curious about Turkish readl estate?<br> You're in the right place.",
             "scheduale_header" => "One of our senior advisors will be in touch for a candid chat with regards your requirements",
             "country_code" => "Country code",
             "copyrights" => "Copyright © 2023 Property Turkey Ltd. All Rights Reserved.",
@@ -109,6 +109,7 @@
             "contact_us" => "Contact Us",
             "wts_number_link" => "https://bit.ly/3RXgJDD",
             "form_link" => "https://bit.ly/3XtfjSK",
+            "reach_out"=>"REACH OUT",
         ],
     ];
 

@@ -260,46 +260,24 @@ include_once('configs.php');
         </div>
     </section>
 
-    <?php // News
+       <?php // News
     ?>
     <section class="container-fluid news" id="news">
         <div class="row">
-            <div class="col-lg-6 side_1  order-12 order-md-0">
-                <div class="row article" onclick="openModal('#sendLead_mdl', 'read_more');">
-                    <div class="col-8 col-lg-7 info">
-                        <h4><?= __('news1_title') ?></h4>
-                        <i><?= __('news1_date') ?></i>
+            <div class="col-lg-6 side_1  order-0 order-md-12">
+                <form class="row inquire_form" id="form" onsubmit="doSend(event, '#form');">
+                    <div class="col-12 ">
+                        <h3><?= __('contact_header') ?></h3>
+                        <div><input type="text" onblur="chk(this, 'isEmpty')" name="name" id="name" placeholder="<?= __('name') ?>" /></div>
+                        <div class="inline_input" onclick="openMenu('#countriesList')">
+                                <img src="img/png100px/tr.png" title="Turkey" alt="TR" id="countryImg"/>
+                                <input type="tel" name="zip" id="zip" value="---"/>
+                        </div>
+                        <div><input type="tel" maxlength="11" class="padding_left100px" onfocus="openMenu('#countriesList','#form_mdl #zip')" onblur="chk(this, 'isPhone')" name="phone" id="phone" placeholder="<?= __('phone') ?>" /></div>
+                        <div><input type="email" onblur="chk(this, 'isEmail')" name="email" id="email" placeholder="<?= __('email') ?>" /></div>
+                        <div><button class="butn butn-red"><?=__('reach_out')?></button></div>
                     </div>
-                    <div class="col-4 col-lg-5 bg_img">
-                        <?php // background image holder
-                        ?>
-                    </div>
-                </div>
-
-                <div class="row article" onclick="openModal('#sendLead_mdl', 'read_more');">
-                    <div class="col-8 col-lg-7 info">
-                        <h4><?= __('news2_title') ?></h4>
-                        <i><?= __('news2_date') ?></i>
-                    </div>
-                    <div class="col-4 col-lg-5 bg_img">
-                        <?php // background image holder
-                        ?>
-                    </div>
-                </div>
-
-                <div class="row article" onclick="openModal('#sendLead_mdl', 'read_more');">
-                    <div class="col-8 col-lg-7 info">
-                        <h4><?= __('news3_title') ?></h4>
-                        <i><?= __('news3_date') ?></i>
-                    </div>
-                    <div class="col-4 col-lg-5 bg_img">
-                        <?php // background image holder
-                        ?>
-                    </div>
-                    <div class="btn_div">
-                        <button class="butn butn-red"><?= __('read_more_news') ?></button>
-                    </div>
-                </div>
+                </form>
             </div>
             <div class="col-lg-6 side_2 order-md-12 order-0">
                 <h3><?= __('we_make_owning_property_easy') ?></h3>
@@ -308,6 +286,7 @@ include_once('configs.php');
         </div>
     </section>
 
+
     <?php // Partners and featured
     ?>
     <section class="container-fluid partners" id="partners">
@@ -315,21 +294,27 @@ include_once('configs.php');
             <div class="col-lg-5 side_1">
                 <h3><?= __('featured_in') ?></h3>
                 <div class="row justify-content-center">
-                    <div class="col-4 logo_img">
+                    
+                    <div class="col-4 logo_img pb-3">
+                        <img src="img/The_Guardian_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
+                    </div>
+                    
+                    <div class="col-4 logo_img pt-3">
+                        <img style="width: 200px;"src="img/NY_Times_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
+                    </div>
+
+                    <div class="col-4 logo_img" >
                         <img src="img/Financial_Times_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
                     </div>
+
                     <div class="col-4 logo_img">
                         <img src="img/Daily_Mail_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
                     </div>
-                    <div class="col-4 logo_img">
-                        <img src="img/The_Guardian_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
-                    </div>
+                    
                     <div class="col-4 logo_img">
                         <img src="img/The_Telegraph_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
                     </div>
-                    <div class="col-4 logo_img">
-                        <img src="img/NY_Times_Logo.svg" title="<?= __('site_img_alt') ?>" alt="<?= __('site_img_alt') ?>" />
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-lg-4 side_2 l_side_border">
@@ -348,10 +333,8 @@ include_once('configs.php');
                 <button class="butn butn-gray" onclick="openModal('#sendLead_mdl', 'contact');">
                     <?=__('contact_us')?>
                 </button>
-                <button class="butn butn-green" onclick="window.location.href = '<?= __('wts_number_link') ?>'">
-                    <?=__('whatsapp_us')?>
-                </button>
-                <div class="mt-3"><?=__('site_phone')?></div>
+                
+                <div class="mt-3 site_phone"><?=__('site_phone')?></div>
             </div>
         </div>
     </section>

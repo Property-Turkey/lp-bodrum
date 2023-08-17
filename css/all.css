@@ -47,6 +47,8 @@
     --light_gray_trans: #f2eee6;
     --green: #517d4e;
     --white: #fff;
+    --cream: #f2eee6;
+    --light_cream: #f9f4eb;
 }
 
 @font-face {
@@ -284,9 +286,6 @@ a:hover {
     background-image: url(../img/Listing_6_Bod_Desktop.webp);
 }
 
-.carousel-inner{
-    padding: 65px;
-}
 .joinus_side {
     padding: 6%;
     text-align: center;
@@ -340,7 +339,7 @@ a:hover {
 }
 
 .partners {
-    background: var(--light_red);
+    background: var(--light_brown);
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -357,10 +356,11 @@ a:hover {
 .partners .logo_img {
     padding: 0 40px;
     text-align: center;
+    flex: 0 0 40%;
 }
 
 .partners .logo_img img {
-    width: 220px;
+    width: 160px;
     max-width: 100%;
 }
 
@@ -368,19 +368,20 @@ a:hover {
     padding-top: 30px;
     text-align: center;
     color: var(--gray);
-}
-
-.partners .side_3 {
     font-size: 20px;
 }
 
+.partners .side_3 .site_phone{
+    font-size: 26px;
+}
+
 .partners .side_3 .butn {
-    padding-left: 12px;
-    padding-right: 12px;
-    font-size: 18px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: normal;
-    height: 40px;
+    height: 52px;
     position: relative;
 }
 
@@ -388,7 +389,7 @@ a:hover {
 .trustpilot {
     text-align: center;
     color: var(--brown);
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 .trustpilot .carousel-item {
@@ -441,7 +442,7 @@ a:hover {
 
 .news {
     color: var(--brown);
-    background: var(--light_brown);
+    background: var(--light_cream);
 }
 
 .news .side_2 {
@@ -453,7 +454,7 @@ a:hover {
     font-size: 18px;
 }
 
-.news h3 {
+.news .side_2 h3 {
     margin: 35px 0;
     font-weight: bold;
 }
@@ -498,21 +499,24 @@ a:hover {
 }
 
 .news .side_1 button {
-    padding: 4px 60px;
-    font-size: 18px;
+    padding: 10px 26px;
+    font-size: 22px;
 }
 
 .l_side_border {
-    border-left: 2px solid var(--light_brown);
+    border-left: 3px solid #9d9281;
 }
 
+
+
 .footer {
-    background: var(--light_red);
-    padding: 30px;
+    background: var(--light_brown);
+    padding: 16px;
     text-align: center;
     color: var(--gray);
     font-style: italic;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .footer .side_1, .footer .side_2 {
@@ -643,7 +647,7 @@ a:hover {
     margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .modal-open .modal {
