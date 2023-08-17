@@ -575,6 +575,7 @@ a:hover {
     color: var(--brown);
     font-size: 20px;
     font-weight: bold;
+    font-style: italic;
 }
 .h_separator > .col{
     white-space: nowrap;
